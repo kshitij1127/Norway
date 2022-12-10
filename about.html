@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>About Me</title>
+        <link rel="icon" type="image/x-icon" href="images/about.svg">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+            body{
+                background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+            }    
+            
+            .card{
+                width: 600px;
+                height: 600px;
+                text-align: center;
+                margin-left: 33%;
+                margin-top: 10%;
+            }
+
+            .card-header{
+                font-family: "Poppins", sans-serif;
+                font-size: "30%";
+                letter-spacing: 0.2rem;
+            }
+
+            .card-content{
+                align-items: center;
+            }
+
+            .card-img{
+                width: 370px;
+                height: 400px;
+            }
+
+            .card-img:hover{
+                scale: 1.15;
+                transition: 1s ease;
+            }
+
+            p{
+                font-family: "Poppins", sans-serif;
+                letter-spacing: 0.1rem;
+            }
+
+            .btn{
+                font-family: "Poppins", sans-serif;
+                font-size: 30px;
+                text-decoration: none;
+                color: black;     
+                letter-spacing: 0.1rem;   
+            }
+
+            .btn:hover{
+                background-color: lightblue;
+                padding: 15px 15px 15px 15px;
+                transition: 0.5s;
+                letter-spacing: 0.2rem;
+            }
+
+            .card-img-fav{
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+
+            .card-img-fav:hover{
+                scale: 1.15;
+                transition: 0.5s;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <div class="card-content">
+                <img class="card-img" src="images/me.png">
+                <h1 class="card-header">
+                        Kshitij Gudla
+                </h1>
+                <p class="card-text">
+                    I study in DAV Public School, Safilguda. I am a 10th grader 
+                </p>
+                <a target="_blank" href="instagram.com/kshitij_gudla">
+                    <img src="images/contactico.png" width="50px" height="50px" class="card-img-fav">
+                </a>
+                <a href="https://github.com/kshitij1127" target="_blank">
+                    <img src="images/contactico2.png" width="50px" height="50px" class="card-img-fav">
+                </a>
+                <br>
+                <a class="btn" href="index.html">
+                    Return home
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
