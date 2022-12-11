@@ -19,7 +19,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #afe7ba;
+    /* background-color: #afe7ba; */
+    background-image: linear-gradient(to right bottom, #8e6bd1, #b168c2, #ca69b2, #da6ea2, #e37694, #e77890, #eb7a8c, #ee7d88, #f2768b, #f66e8f, #f96795, #fb5f9c);
 }
 
 .grid{
@@ -42,7 +43,8 @@ body{
 
 .grid-item:hover{
     transform: translateY(-0.5%);
-    box-shadow: 0 4rem 8rem rgba(255, 255, 0, 0.7);
+    /* box-shadow: 0 4rem 8rem rgba(255, 255, 0, 0.7); */
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.7);
 }
 
 .card-img{
