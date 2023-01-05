@@ -2,6 +2,7 @@
     <head>
         <title>About Me</title>
         <link rel="icon" type="image/x-icon" href="images/about.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
             body{
@@ -9,11 +10,10 @@
             }    
             
             .card{
-                width: 600px;
-                height: 600px;
                 text-align: center;
-                margin-left: 33%;
-                margin-top: 10%;
+                display: flex;
+                justify-content: center;
+                margin-top: 5%;
             }
 
             .card-header{
@@ -42,18 +42,23 @@
             }
 
             .btn{
-                font-family: "Poppins", sans-serif;
-                font-size: 30px;
+                display: flex;
+                justify-self: unset;
+                justify-content: center;
+                text-align: center;
                 text-decoration: none;
-                color: black;     
-                letter-spacing: 0.1rem;   
+                letter-spacing: 0.3rem;
+                color: black;
+                font-size: 50px;
+                font-family: "Poppins", sans-serif;
             }
 
             .btn:hover{
-                background-color: lightblue;
-                padding: 15px 15px 15px 15px;
+                letter-spacing: 0.5rem;
+                background-color: rgba(0, 0, 0, 0.8);
+                color: white;
                 transition: 0.5s;
-                letter-spacing: 0.2rem;
+                border-radius: 50px;
             }
 
             .card-img-fav{
